@@ -32,4 +32,4 @@ dig([1, 1])
 #     puts "%2d " % i + a.map{|x| x ? ' ' : '@' }.join
 # end
 
-ImageConverter.array_convert(Maze, { true => 'white',  false => 'black' }, 'maze.dig.png', 5)
+ImageConverter.array_convert(Maze, { true => 'white',  false => 'black' }, 'maze/dig.png')
